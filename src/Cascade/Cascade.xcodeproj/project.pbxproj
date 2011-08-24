@@ -400,6 +400,9 @@
 /* Begin PBXProject section */
 		20BB3410133FB8FF003EEB6E /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 20BB3413133FB8FF003EEB6E /* Build configuration list for PBXProject "Cascade" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
