@@ -138,6 +138,8 @@
     
     [self pushDetailViewController:viewController animated:YES];
     [viewController release];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end
