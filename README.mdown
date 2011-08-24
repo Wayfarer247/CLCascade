@@ -4,36 +4,40 @@ CLCascade
 CLCascade is a library to create twitter-like UI in iPad apps created by CreativeLabs.pl TEAM.
 If you need any help please contact us at [info@creativelabs.pl][]
 
-This is a beta version of CLCascade library
+This fork is maintained by Ethan Mick [ethanmski@gmail.com][].  I am working
+hard on making it smoother and less buggy.  If you have suggestions, please
+do not hesitate to open an issue!
+
+This is a beta version of CLCascade library.
 
 Libraries
 =========
-CLCascade is a set of projects:
+CLCascade was originally a bunch of projects under one umbrella.  However, I am
+only interested in the Cascade portion of the library.  That is all I will be
+developing.
 
  * Cascade - on top of that you can build a twitter like swipe tabs
- * ExtraDetailTableView - additional view attached to the cell (click and drag with two fingers down)
-
-Simple projects
-===============
-
-Simple project screencast: [Screencast][]
+ 
 
 Roadmap
 ===============
 
-Because of the great interest in the project CLCascade we want to inform you that we are planning further 
-development of the project, this is what we want to do in near future:
+I plan on using this for personal projects, so I will be updating the library as
+I work on it.  My general trajector is:
 
- * build a framework on top of CLCascade
- * some bugfixes that we found during testing the CLCascade
- * write documentation
+* Figure out how the CLCascade library works
+* Fix current bugs and make the library stable
+* Improve UI features so it acts more like the Twitter app
+* New Features??
+
+Of course, as I figure out what's happening and I start working on the project,
+I'll update the roadmap.
 
 Authors
 =======
 
-CreativeLabs.pl
-
 - Emil Wojtaszek
+- Ethan Mick
 
-[Screencast]: http://www.youtube.com/watch?v=XFtc1ksqOmU
 [info@creativelabs.pl]: info@creativelabs.pl
+[ethanmski@gmail.com]: ethanmski@gmail.com
