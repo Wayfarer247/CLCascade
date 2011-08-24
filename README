@@ -2,7 +2,8 @@ CLCascade
 =========
 
 CLCascade is a library to create twitter-like UI in iPad apps created by CreativeLabs.pl TEAM.
-If you need any help please contact us at info@creativelabs.pl
+This fork is maintained by Ethan Mick.
+If you need any help please contact us at info@creativelabs.pl (or Ethan at ethanmski@gmail.com)
 
 This is a beta version of CLCascade library
 
@@ -18,3 +19,5 @@ Authors
 CreativeLabs.pl
 
 - Emil Wojtaszek
+
+- Ethan Mick, ethanmski@gmail.com
