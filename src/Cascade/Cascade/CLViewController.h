@@ -34,9 +34,14 @@
 - (void) pushDetailViewController:(CLViewController *)viewController animated:(BOOL)animated;
 
 // Outer left shadow methods
-- (void) addShadowWithWidth:(CGFloat)width animated:(BOOL)animated;
-- (void) removeShadow:(BOOL)animated;
+- (void) addLeftBorderShadowWithWidth:(CGFloat)width andOffset:(CGFloat)offset;
+- (void) removeLeftBorderShadow;
 
-- (CAGradientLayer*) outerLeftShadow;
+/*
+ Override this methods to return view which represent left border shadow.
+ It could be UIImageView with gradient image or simle UIView, where you can overrider drawRect: method
+ to draw gradient in Core Animation.
+ */
+- (UIView *) leftBorderShadowView;
 
 @end
