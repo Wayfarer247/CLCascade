@@ -182,6 +182,7 @@
     // update edge inset
     [self setProperEdgeInset: NO];
     // add subview
+    
     [_scrollView addSubview: newPage];
     // send message to delegate
     [self didAddPage:newPage animated:animated];

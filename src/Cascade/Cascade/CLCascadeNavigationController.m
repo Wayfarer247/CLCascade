@@ -274,7 +274,7 @@
                 [_viewControllers removeLastObject];
             }
         }
-    } 
+    }
     
     // set cascade navigator to view controller
     [viewController setCascadeNavigationController: self];
@@ -282,6 +282,14 @@
     [viewController setParentViewController: sender];
     // add controller to array
     [self.viewControllers addObject: viewController];
+    
+    ///
+    /// Ethan Mick
+    /// Added the viewController to be the child of the CLCascadeNavigationController,
+    /// so the Hierarchy stays together.  This allows CLCascade to work on iOS 5.
+    ///
+    [self addChildViewController:viewController];
+    
 
     // push view
     [_cascadeView pushPage:[viewController view] 
